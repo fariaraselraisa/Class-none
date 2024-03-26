@@ -1,0 +1,493 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+}
+
+
+    
+
+ul {
+display: flex;
+
+justify-content: end;
+background-color: rgb(49, 49, 49);
+padding: 20px;
+gap: 1rem;
+
+
+
+
+}
+
+li{
+    list-style:none ;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-color: rgb(131, 107, 77);
+
+}
+
+nav ul li a:hover{
+    background-color: blanchedalmond;
+    color: black;
+    
+
+ 
+}
+nav .parent{
+          position: relative;
+
+}
+
+nav .parent:hover .dropdown{
+    visibility: visible;
+    opacity: 1;
+    top: 38px;
+}
+
+
+.dropdown{
+    position: absolute;
+    top: 50px;
+    width: 200px;
+    height: 400px;
+    background-color:rgb(49, 49, 49); 
+    visibility: hidden;
+    
+    opacity: 0;
+    transition: o.9s;
+
+
+}
+
+ .parent ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+}
+
+
+.dropdown li {
+    padding: 10px;
+    background-color: rgb(131, 107, 77);
+    color:white;
+
+}
+.dropdown li:hover{
+    background-color: blanchedalmond;
+    color: black; 
+}
+
+/* sub */
+
+ .sub{ 
+    position: relative;
+
+}
+
+
+
+nav .sub:hover .subd{
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+
+
+
+.subd{
+    position: absolute;
+    
+    width: 200px;
+    height: 250px;
+    background-color:rgb(49, 49, 49); 
+    visibility: hidden;
+    
+    opacity: 0;
+    transition: 1s;
+    margin-left: 150px;
+    
+}
+
+.sub ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.subd li {
+  padding: 10px;
+  background-color: rgb(131, 107, 77);
+  color:white;
+
+}
+.subd li:hover{
+  background-color: blanchedalmond;
+  color: black; 
+}
+
+.sub{ 
+  position: relative;
+
+}
+
+
+
+nav .sub:hover .subd{
+  visibility: visible;
+  opacity: 1;
+ 
+}
+
+
+/* sub1 */
+ 
+
+.sub1{ 
+    position: relative;
+
+}
+
+
+
+nav .sub1:hover .subd1{
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+
+
+
+.subd1{
+    position: absolute;
+    
+    width: 200px;
+    height: 290px;
+    background-color:rgb(49, 49, 49); 
+    visibility: hidden;
+    
+    opacity: 0;
+    transition: 1s;
+    margin-left: 150px;
+    
+}
+
+.sub1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.subd1 li {
+  padding: 10px;
+  background-color: rgb(131, 107, 77);
+  color:white;
+
+}
+.subd1 li:hover{
+  background-color: blanchedalmond;
+  color: black; 
+}
+
+.sub1{ 
+  position: relative;
+
+}
+
+
+
+nav .sub1:hover .subd1{
+  visibility: visible;
+  opacity: 1;
+ 
+}
+
+/* sub2 */
+
+.sub2{ 
+    position: relative;
+
+}
+
+
+
+nav .sub2:hover .subd2{
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+
+
+
+.subd2{
+    position: absolute;
+    
+    width: 200px;
+    height: 340px;
+    background-color:rgb(49, 49, 49); 
+    visibility: hidden;
+    
+    opacity: 0;
+    transition: 1s;
+    margin-left: 150px;
+    
+}
+
+.sub2 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.subd2 li {
+  padding: 10px;
+  background-color: rgb(131, 107, 77);
+  color:white;
+
+}
+.subd2 li:hover{
+  background-color: blanchedalmond;
+  color: black; 
+}
+
+.sub2{ 
+  position: relative;
+
+}
+
+
+
+nav .sub2:hover .subd2{
+  visibility: visible;
+  opacity: 1;
+ 
+}
+
+
+/* parent1 */
+
+nav .parent1{
+    position: relative;
+
+}
+
+nav .parent1:hover .dropdown1{
+visibility: visible;
+opacity: 1;
+top: 38px;
+}
+
+
+.dropdown1{
+position: absolute;
+top: 50px;
+width: 200px;
+height: 300px;
+background-color:rgb(49, 49, 49); 
+visibility: hidden;
+
+opacity: 0;
+transition: o.99s;
+
+
+}
+
+.parent1 ul {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+
+}
+
+
+.dropdown1 li {
+padding: 10px;
+background-color: rgb(131, 107, 77);
+color:white;
+
+}
+.dropdown1 li:hover{
+background-color: blanchedalmond;
+color: black; 
+}
+
+/* parent2 */
+
+
+nav .parent2{
+    position: relative;
+
+}
+
+nav .parent2:hover .dropdown2{
+visibility: visible;
+opacity: 1;
+top: 38px;
+}
+
+
+.dropdown2{
+position: absolute;
+top: 50px;
+width: 200px;
+height: 300px;
+background-color:rgb(49, 49, 49); 
+visibility: hidden;
+
+opacity: 0;
+transition: o.99s;
+
+
+}
+
+.parent2 ul {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+
+}
+
+
+.dropdown2 li {
+padding: 10px;
+background-color: rgb(131, 107, 77);
+color:white;
+
+}
+.dropdown2 li:hover{
+background-color: blanchedalmond;
+color: black; 
+}
+
+
+.box{
+  
+display: flex;
+  
+    background-color: #ccc;
+   
+    width: 700px;
+    height: 100px;
+    object-fit: cover;
+
+}
+.box img{
+    height: 100px;
+    width: 155px;
+}
+
+.box2{ 
+   
+    height: 300px;
+    width: 100%;
+background-color: antiquewhite;
+border: 6px solid rgb(131, 107, 77);
+}
+.box2 h1{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    
+}
+.box2 p{
+    color: rgb(0, 0, 0);
+    font-family: "Open Sans", sans-serif;
+  font-size: larger;
+  padding: 10px;
+     
+}
+
+ .box3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    
+ }   
+.box3 .subbox{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    height: 450px;
+    
+    background:  antiquewhite;
+    
+                 border: 6px solid rgb(131, 107, 77);       
+
+}
+.box3 .subbox span{
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font{
+
+padding: 10px;
+}
+
+
+
+.for{
+
+    text-align: center;
+    background-color: antiquewhite;
+    border: 8px solid rgb(97, 65, 6);   
+}
+
+
+input[type=submit] {
+    background-color:green;
+    border: none;
+    color: #000000;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 6px 3px;
+    cursor: pointer;
+    font-family:"Roboto Slab", serif ;
+    
+  }
+
+  input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: antiquewhite;
+  }
+
+  textarea {
+    width: 30%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+   
+}
+.tool{
+    text-transform: capitalize;
+    text-decoration: underline;
+    
+}
